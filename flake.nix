@@ -11,15 +11,15 @@
       url = github:nix-community/dream2nix?rev=34a80ab215f1f24068ea9c76f3a7e5bc19478653;
     };
     nixpkgs = {
-      # url = github:NixOS/nixpkgs?rev=6c8644fc37b6e141cbfa6c7dc8d98846c4ff0c2e;
+      url = github:NixOS/nixpkgs?rev=6c8644fc37b6e141cbfa6c7dc8d98846c4ff0c2e;
       # url = github:NixOS/nixpkgs?rev=71bae31b7dbc335528ca7e96f479ec93462323ff;
-      url = github:NixOS/nixpkgs?rev=70bdadeb94ffc8806c0570eb5c2695ad29f0e421;
+      # url = github:NixOS/nixpkgs?rev=70bdadeb94ffc8806c0570eb5c2695ad29f0e421;
     };
     home-manager = {
-      # url = github:drzln/home-manager?rev=b372d7f8d5518aaba8a4058a453957460481afbc;
+      url = github:drzln/home-manager?rev=b372d7f8d5518aaba8a4058a453957460481afbc;
       # url = github:drzln/home-manager?rev=d7682620185f213df384c363288093b486b2883f;
       # url = github:drzln/home-manager?rev=ab5542e9dbd13d0100f8baae2bc2d68af901f4b4;
-      url = github:drzln/home-manager?rev=6779167a739240778d34024b89ecf6404fb28f9e;
+      # url = github:drzln/home-manager?rev=6779167a739240778d34024b89ecf6404fb28f9e;
       inputs.nixpkgs.follows = "nixpkgs";
     };
     flake-utils = {
