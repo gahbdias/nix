@@ -71,6 +71,7 @@ in
           python3
           mysql
           tfsec
+          ruby
           tfplugindocs
           tfswitch
           golint
