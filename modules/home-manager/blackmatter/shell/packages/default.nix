@@ -65,6 +65,7 @@ in
           gnirehtet
           jellyfin-ffmpeg
           yq-go
+          unzip
           # yq
           mysql
           tfsec
