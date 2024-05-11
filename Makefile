@@ -11,12 +11,13 @@ h:
 	@echo "---------------------------------"
 	@echo " show: show details on this flake"
 
+	# export LC_ALL=en_US.UTF-8 
+	# # home-manager switch -b backup --flake ".#luis@ego" --experimental-features 'nix-command flakes' --show-trace
 plo:
 	home-manager switch --flake ".#luis@plo" --experimental-features 'nix-command flakes'
 
 ego:
-	export LC_ALL=en_US.UTF-8 
-	home-manager switch -b backup --flake ".#luis@ego" --experimental-features 'nix-command flakes' --show-trace
+	home-manager switch --flake ".#luis@ego" --extra-experimental-features nix-command --extra-experimental-features flakes
 
 rai:
 	home-manager switch --flake ".#ldesiqueira@rai" -b backup
