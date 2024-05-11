@@ -68,7 +68,7 @@ in
           unzip
           opam
           # yq
-          python3
+          # python3
           mysql
           tfsec
           ruby
@@ -107,6 +107,7 @@ in
           php81Packages.php-cs-fixer
           xorriso
         ]
+        # ++ import ./python pkgs
         ++ import ./kubernetes pkgs
         ++ import ./javascript pkgs
         ++ import ./hashicorp pkgs
@@ -114,7 +115,6 @@ in
         ++ import ./rustlang pkgs
         ++ import ./secrets pkgs
         ++ import ./arduino pkgs
-        ++ import ./python pkgs
         ++ import ./golang pkgs
         ++ import ./redis pkgs
         ++ import ./ruby pkgs

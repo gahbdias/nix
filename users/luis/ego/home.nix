@@ -18,5 +18,6 @@
   nixpkgs.config.allowBroken = true;
   nixpkgs.config.permittedInsecurePackages = [
     "electron-25.9.0"
+    "python3.10-requests-2.28.2"
   ];
 }
