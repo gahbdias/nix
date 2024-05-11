@@ -68,6 +68,7 @@ in
           unzip
           opam
           # yq
+          python3
           mysql
           tfsec
           tfplugindocs
