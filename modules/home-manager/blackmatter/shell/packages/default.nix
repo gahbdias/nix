@@ -66,6 +66,7 @@ in
           jellyfin-ffmpeg
           yq-go
           unzip
+          opam
           # yq
           mysql
           tfsec
