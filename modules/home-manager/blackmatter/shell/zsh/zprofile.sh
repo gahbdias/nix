@@ -77,6 +77,7 @@ export CPATH=$CPATH:/usr/include
 # load these before anything in nix
 export PATH="$HOME/.cargo/bin:$PATH"
 export PATH=/usr/local/bin:$PATH
+export PATH=~/.nix-profile/bin:$PATH
 
 # help cargo find libiconv
 export PATH="/usr/local/opt/libiconv/bin:$PATH"
