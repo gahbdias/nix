@@ -10,6 +10,7 @@
       fcitx-engines = self.fcitx5;
     })
   ];
+  config.news.json.output = false;
   blackmatter.programs.nvim.enable = true;
   blackmatter.shell.enable = true;
   blackmatter.desktop.enable = false;
