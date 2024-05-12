@@ -11,12 +11,12 @@
       url = github:nix-community/dream2nix?rev=34a80ab215f1f24068ea9c76f3a7e5bc19478653;
     };
     nixpkgs = {
-      # url = github:NixOS/nixpkgs?rev=6c8644fc37b6e141cbfa6c7dc8d98846c4ff0c2e;
-      url = github:NixOS/nixpkgs?branch=nixos-22.11;
+      url = github:NixOS/nixpkgs?rev=6c8644fc37b6e141cbfa6c7dc8d98846c4ff0c2e;
+      # url = github:NixOS/nixpkgs?branch=nixos-22.11;
     };
     home-manager = {
-      # url = github:drzln/home-manager?rev=b372d7f8d5518aaba8a4058a453957460481afbc;
-      url = github:drzln/home-manager?branch=release-22.11;
+      url = github:drzln/home-manager?rev=b372d7f8d5518aaba8a4058a453957460481afbc;
+      # url = github:drzln/home-manager?branch=release-22.11;
       inputs.nixpkgs.follows = "nixpkgs";
     };
     flake-utils = {
