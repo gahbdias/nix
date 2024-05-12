@@ -107,7 +107,7 @@ in
           php81Packages.php-cs-fixer
           xorriso
         ]
-        # ++ import ./python pkgs
+        ++ import ./python pkgs
         ++ import ./kubernetes pkgs
         ++ import ./javascript pkgs
         ++ import ./hashicorp pkgs
