@@ -37,7 +37,7 @@ in
             gnumake
             openssh
             fcitx5
-            nodejs
+            # nodejs
             # TODO: poetry is flagged as insecure
             # poetry
             bundix

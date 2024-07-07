@@ -20,7 +20,7 @@
       gnumake
       openssh
       nixops
-      nodejs
+      # nodejs
       # TODO: poetry is flagged as insecure
       # poetry
       bundix
