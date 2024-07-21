@@ -16,6 +16,9 @@ h:
 plo:
 	home-manager switch --flake ".#luis@plo" --experimental-features 'nix-command flakes'
 
+flor:
+	home-manager switch --flake ".#gabi@flor" --experimental-features 'nix-command flakes'
+
 ego:
 	home-manager switch --flake ".#luis@ego" --extra-experimental-features nix-command --extra-experimental-features flakes
 
