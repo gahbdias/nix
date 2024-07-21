@@ -146,6 +146,9 @@
             # ubuntu machines
             ###################################################################
 
+            "gabi@flor" =
+              mkHomeConfiguration "gabi" "flor" pkgs extraSpecialArgs;
+
             "luis@ego" =
               mkHomeConfiguration "luis" "ego" pkgs extraSpecialArgs;
 
