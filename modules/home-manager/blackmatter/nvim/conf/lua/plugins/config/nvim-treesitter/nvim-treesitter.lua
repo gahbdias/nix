@@ -11,7 +11,7 @@ function M.setup()
 		context_commentstring = { enable = true },
 		parser_install_dir = parsers_path,
 		ensure_installed = "all";
-		auto_install = true,
+		auto_install = false,
 		enable = true,
 		highlight = {
 			enable = true,
