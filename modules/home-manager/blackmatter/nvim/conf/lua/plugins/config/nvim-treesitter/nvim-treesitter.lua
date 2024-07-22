@@ -10,7 +10,7 @@ function M.setup()
 	require("nvim-treesitter.configs").setup {
 		context_commentstring = { enable = true },
 		parser_install_dir = parsers_path,
-		ensure_installed = "all";
+		ensure_installed = {};
 		auto_install = false,
 		enable = true,
 		highlight = {
